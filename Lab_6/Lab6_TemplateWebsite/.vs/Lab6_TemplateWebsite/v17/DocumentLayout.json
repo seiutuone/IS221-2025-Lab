@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\IS221\\Lab_6\\Lab6_TemplateWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38984C06-4630-446F-8699-50B3593C50EF}|Lab6_TemplateWebsite.vbproj|e:\\is221\\lab_6\\lab6_templatewebsite\\masterpages\\university.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{38984C06-4630-446F-8699-50B3593C50EF}|Lab6_TemplateWebsite.vbproj|solutionrelative:masterpages\\university.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "University.master",
+              "DocumentMoniker": "E:\\IS221\\Lab_6\\Lab6_TemplateWebsite\\MasterPages\\University.master",
+              "RelativeDocumentMoniker": "MasterPages\\University.master",
+              "ToolTip": "E:\\IS221\\Lab_6\\Lab6_TemplateWebsite\\MasterPages\\University.master*",
+              "RelativeToolTip": "MasterPages\\University.master*",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-05T04:30:53.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

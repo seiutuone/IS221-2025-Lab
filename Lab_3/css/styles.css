@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #003366; /* What background color will be best for readability? */
+}
+
+/* Question: Why is it important to set a background color instead of relying on browser defaults? */
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    padding:15px; /* How much padding will make the header balanced? */
+    background-color: #003366;
+    color: white;
+}
+
+header img {
+    height: 50px; /* What is a reasonable height for the logo? */
+    margin-right: 15px; /* Adjust margin so text and image are spaced correctly */
+}
+
+/* Question: What happens if `display: flex;` is removed from `header`? */
+
+/* Navigation Menu */
+nav {
+    background-color: #0055a4;
+    padding:10px Adjust padding for better spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Should the links be centered or spaced out? */
+}
+
+nav ul li {
+    margin:15px; /* Set horizontal spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    height: 50px; /* Adjust icon size for better alignment */
+    margin-right: 15px; /* Space between icon and text */
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Question: How does `justify-content` affect the alignment of the navigation links? */
+
+/* Two-Column Layout */
+.container {
+    display: flex;
+    justify-content: center; /* Should columns have equal space or be spread out? */
+    margin: 20px;
+}
+
+/* Column Styling */
+.column {
+    flex: 1; /* Should columns take equal space (1:1) or different widths? */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+/* Set Column Widths */
+.column:first-child {
+    flex-basis: 60%; /* Should the left column be 60% or 50%? */
+}
+
+.column:last-child {
+    flex-basis: 40%; /* Should the right column be 40% or 50%? */
+}
+
+/* Question: What happens if both `.column:first-child` and `.column:last-child` are set to 50%? */
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px; /* How much padding ensures readability? */
+    text-align: left;
+}
+
+th {
+    background-color: #2a71d0;
+    color: white;
+}
+
+/* Question: Why is `border-collapse: collapse;` used in table styling? */
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px; /* Adjust padding for spacing */
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 10px; /* Adjust spacing between footer links */
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Question: What happens if `display: inline;` is removed from `footer ul li`? */
